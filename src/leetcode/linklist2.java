@@ -1,15 +1,14 @@
 package leetcode;
 
 
-
-public class linklist {
+public class linklist2 {
 	private static class Node { 
     int val;
 	Node next;
 	}
 	private Node head;
 	
-	public linklist() { // O(1)
+	public linklist2() { // O(1)
     head = null;
 	}
 
@@ -100,7 +99,7 @@ public class linklist {
 
 
 	public static void main(String[]args) {
-		linklist a = new linklist();
+		linklist2 a = new linklist2();
 		for (int i = 0; i < 10; i++)
 			a.addStart(i);
 		System.out.println(a);
