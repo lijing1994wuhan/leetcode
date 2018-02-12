@@ -13,7 +13,7 @@ public class twosum {
 	        }
 	    }
 	    throw new IllegalArgumentException("No two sum solution");
-	  1 solution  */
+1 solution  */
 		
 		   /* HashMap<Integer, Integer> map = new HashMap<>();
 		    for (int i = 0; i < nums.length; i++) {
@@ -26,7 +26,9 @@ public class twosum {
 		        }
 		    }
 		    throw new IllegalArgumentException("No two sum solution");
-		    2 solution */
+		    
+2 solution */
+		
 		 HashMap<Integer, Integer> map = new HashMap<>();
 		    for (int i = 0; i < nums.length; i++) {
 		        int complement = target - nums[i];
